@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Mathematics/Mathematics.csproj" />
   <Project Path="RayEngine/RayEngine.csproj" />
 </Solution>
