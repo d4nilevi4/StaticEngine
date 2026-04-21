@@ -8,8 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="FFS.StaticEcs" Version="2.1.3" />
-      <PackageReference Include="FFS.StaticEcs.Debug" Version="2.1.3" />
+      <PackageReference Include="FFS.StaticEcs" Version="2.1.4" />
+      <PackageReference Include="FFS.StaticEcs.Debug" Version="2.1.4" />
     </ItemGroup>
 
 </Project>
