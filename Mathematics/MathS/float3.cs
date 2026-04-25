@@ -15,6 +15,11 @@ public readonly struct float3 : IEquatable<float3>
     
     public static float3 Zero => new float3(0f, 0f, 0f);
     public static float3 One => new float3(1f, 1f, 1f);
+    
+    public static float3 Forward => new(0f, 0f, -1f);
+    public static float3 Up => new(0f, 1f, 0f);
+    public static float3 Right => new(1f, 0f, 0f);
+    
 
     
     public float this[int i]
