@@ -20,11 +20,11 @@ Controls: `K` to pause, `Q` to quit, `Escape` to toggle cursor capture.
 
 Without the grid:
 
-<video src="GravitySimulation/PREVIEW/gravity_sim_preview_without_grid.mp4" controls width="100%"></video>
+![Without grid](GravitySimulation/PREVIEW/preview_without_grid.webp)
 
 With the spacetime grid:
 
-<video src="GravitySimulation/PREVIEW/gravity_sim_preview_with_grid.mp4" controls width="100%"></video>
+![With grid](GravitySimulation/PREVIEW/preview_with_grid.webp)
 
 ### Building and running
 
