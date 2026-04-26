@@ -16,6 +16,8 @@ An experimental game engine written in C#, inspired by [Bevy Engine][bevy-link].
 
 An N-body gravity simulation. Bodies attract each other under Newtonian gravity, computed as a brute-force O(N²) pairwise sum. The force kernel is parallelised across worker threads and vectorised with SIMD over a Structure-of-Arrays body buffer, so every inner-loop step accumulates contributions from a full SIMD vector of bodies at once. An optional spacetime grid bends under the masses; it is a visual metaphor, not actual general relativity.
 
+Inspired by [this gravity simulation video][grav-video] and its [reference implementation on GitHub][grav-repo].
+
 Controls: `K` to pause, `Q` to quit, `Escape` to toggle cursor capture.
 
 Without the grid:
@@ -40,3 +42,5 @@ dotnet run --project GravitySimulation
 [bevy-link]: https://github.com/bevyengine/bevy
 [staticecs-link]: https://github.com/Felid-Force-Studios/StaticEcs
 [raylib-link]: https://github.com/raylib-cs/raylib-cs
+[grav-video]: https://www.youtube.com/watch?v=_YbGWoUaZg0
+[grav-repo]: https://github.com/kavan010/gravity_sim
