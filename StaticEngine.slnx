@@ -1,5 +1,4 @@
 <Solution>
   <Project Path="GravitySimulation/GravitySimulation.csproj" />
   <Project Path="Mathematics/Mathematics.csproj" />
-  <Project Path="RayEngine/RayEngine.csproj" />
 </Solution>
