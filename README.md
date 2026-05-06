@@ -28,6 +28,20 @@ With the spacetime grid:
 
 ![With grid](GravitySimulation/PREVIEW/preview_with_grid.webp)
 
+### AtomSimulation
+
+A visualisation of hydrogen atom orbitals. The electron is drawn as a cloud of points: where the cloud is dense, the electron is more likely to be found. The shape of the cloud is controlled by three quantum numbers `(n, l, m)`, which can be changed at runtime. Each point is coloured by an inferno heatmap based on local density, and the whole cloud slowly rotates around the polar axis to give a sense of the quantum probability flow.
+
+Inspired by [this atomic orbital simulation video][atom-video] and its [reference implementation on GitHub][atom-repo].
+
+Controls: arrow `Up`/`Down` change `n`, `Left`/`Right` change `l`, `[`/`]` change `m`, `-`/`=` change particle count, `K` to pause, `Q` to quit, `Escape` to toggle cursor capture.
+
+![Orbital 1](AtomSimulation/PREVIEW/preview1.webp)
+
+![Orbital 2](AtomSimulation/PREVIEW/preview2.webp)
+
+![Orbital 3](AtomSimulation/PREVIEW/preview3.webp)
+
 ### Building and running
 
 Requires the .NET 10 SDK.
@@ -37,6 +51,7 @@ git clone https://github.com/d4nilevi4/StaticEngine.git
 cd StaticEngine
 dotnet build
 dotnet run --project GravitySimulation
+dotnet run --project AtomSimulation
 ```
 
 [bevy-link]: https://github.com/bevyengine/bevy
@@ -44,3 +59,5 @@ dotnet run --project GravitySimulation
 [raylib-link]: https://github.com/raylib-cs/raylib-cs
 [grav-video]: https://www.youtube.com/watch?v=_YbGWoUaZg0
 [grav-repo]: https://github.com/kavan010/gravity_sim
+[atom-video]: https://www.youtube.com/watch?v=OSAOh4L41Wg
+[atom-repo]: https://github.com/kavan010/Atoms
